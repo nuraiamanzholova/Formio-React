@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Form, form } from '@formio/react'
 import 'formiojs/dist/formio.builder.min.css';
-import { FormBuilder } from 'formiojs';
+import './styles.scss';
+
 
 const App = () => {
   const formRef = React.useRef(null);
@@ -11,9 +12,11 @@ const App = () => {
   }, []);
 
 
+
   return (
     
     <div className="container" id="main">
+      
       <Form src="https://forms.lhd.dev.publicplan.cloud/azubitest-adxfkcqfehdcrev/test2 " />
     </div>
   );
