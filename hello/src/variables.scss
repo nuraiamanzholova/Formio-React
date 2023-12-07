@@ -1,0 +1,25 @@
+// Add your custom styles below
+$theme-colors-rgb: (
+  'primary': #007bff,
+  'info': #530f1a,
+);
+
+.survey{
+    background-color:blanchedalmond;
+    color:darkblue; 
+}
+.formio-form{
+    background-color:lightblue;
+}
+.homepage{
+     border-radius : 500px;
+   width: 10rem;
+    
+    } 
+    .content {
+        text-align: start;
+        vertical-align: center;
+        background-color: pink;
+        width: 30rem;
+    }
+   
