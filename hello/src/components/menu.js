@@ -28,6 +28,8 @@ function Menu() {
                             navbarScroll
                         >
                              <ModalF />
+                             
+                             <h1 className='header'> Autowash </h1>
                             <Nav.Link as={Link} to={"/Startseite"}> Startseite </Nav.Link>
                             <Nav.Link  as={Link} to={"/Uberuns"}>Überuns</Nav.Link>
                             <Nav.Link  as={Link} to={"/Stadte"}>Stadte</Nav.Link>

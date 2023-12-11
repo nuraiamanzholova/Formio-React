@@ -54,11 +54,8 @@ const Startseite = () => {
     <span className="head">Adresse: </span>
     <div>Jülicher str.7</div>
     <div>40477 Düsseldorf</div>
-    <h2 className="head">Eröffnungs 50% Sonderangebot</h2>
-    <h3 className="head">
-      Wir haben 50% Sonderangebot für unsere Neueröffnung nur  
-     bis 27.08.2023
-    </h3>
+   
+    
     <Subscribe/>
       </div>
    
