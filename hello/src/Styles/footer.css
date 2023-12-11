@@ -40,8 +40,8 @@
 
 .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.list li { padding:5px 0px;}
-.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
-.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+.footer-bs .footer-nav ul.list a { color:rgba(255, 255, 255, 0.8); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(159, 26, 26, 0.6); text-decoration:none; }
 
 .footer-bs .footer-social ul { list-style:none; padding:0px; }
 .footer-bs .footer-social h4 {

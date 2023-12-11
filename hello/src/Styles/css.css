@@ -12,6 +12,14 @@
   #navbarScroll{
     height: 80px;
     background-color: darkgray;
+    top: 0px;
+    height: 80px;
+    background-color: darkgray;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+
   }
   table {
   text-align: center;

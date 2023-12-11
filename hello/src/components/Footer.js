@@ -1,4 +1,3 @@
-import '../Styles/css.css'
 import '../Styles/footer.css'
 import logo from './logo.jpg';
 const Footer = () => {
@@ -19,7 +18,7 @@ const Footer = () => {
             <p>© 2023 BS3 UI Kit, All rights reserved</p>
           </div>
           <div className="col-md-2 footer-nav animated fadeInUp">
-            <h4>Menu —</h4>
+            <h4>Menu</h4>
             <div className="col-md-6">
               <ul className="pages">
                 <li>
@@ -42,6 +41,7 @@ const Footer = () => {
 
             </div>
             <div className="col-md-2 footer-social animated fadeInDown">
+            
               <ul className="list">
                 <li>
                   <a href="#">Über uns</a>
