@@ -97,7 +97,7 @@ const Footer = () => {
       </footer>
       <section style={{ textAlign: 'center', margin: '10px auto' }}>
         <p className='designedby'>
-          Designed by <a href="https://github.com/dashboard">Nurai Amanzholova</a>
+          Created by <a href="https://github.com/dashboard">Nurai Amanzholova</a>
         </p>
       </section>
     </div>

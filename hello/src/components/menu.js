@@ -3,7 +3,6 @@ import Startseite from '../pages/Startseite';
 import Stadte from "../pages/Stadte";
 import NotFound from '../pages/Notfound';
 import Uberuns from "../pages/Uberuns"
-import logo from './logo.jpg';
 import ModalF from './ModalF';
 import FormioForm from '../FormioForm';
 import Button from 'react-bootstrap/Button';
