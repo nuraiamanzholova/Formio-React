@@ -1,5 +1,6 @@
 import '../Styles/footer.css'
 import logo from './logo.jpg';
+
 const Footer = () => {
   return (
     <div className="container">
@@ -94,12 +95,13 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </footer>
+      
       <section style={{ textAlign: 'center', margin: '10px auto' }}>
         <p className='designedby'>
           Created by <a href="https://github.com/dashboard">Nurai Amanzholova</a>
         </p>
       </section>
+      </footer>
     </div>
   );
 };

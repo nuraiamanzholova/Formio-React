@@ -39,7 +39,7 @@
     border-right: 25px solid transparent;
     height: 0;
     width: 125px; }
-    75% { border-color: lime;}
+    75% { border-color: rgb(255, 0, 123);}
     100%{border-color:firebrick;}
     }
     

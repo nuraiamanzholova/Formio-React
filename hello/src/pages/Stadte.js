@@ -1,3 +1,4 @@
+import '../Styles/stadte.css'
 const Stadte = () => {
     return (
         <div className="stadte">
