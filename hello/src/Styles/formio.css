@@ -1,0 +1,13 @@
+/* Sprache wechsel de/en buttons */
+.btn-group{
+    right: 0px;
+    top: 75px;
+    position: absolute;
+    z-index: 1;
+    width: 180px!important;
+    background-color: dimgray!important;
+    border: solid;
+    border-radius: 10px;
+    border-color: blue;
+}
+   

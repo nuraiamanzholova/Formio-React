@@ -8,6 +8,9 @@
 .container {
     padding-right: 0px!important;
 	padding-left: 0px!important;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .footer-bs {
@@ -30,7 +33,7 @@
 
 .footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.pages li { padding:5px 0px;}
-.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00);   }
 .footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
 .footer-bs .footer-nav h4 {
 	font-size: 11px;
@@ -43,7 +46,7 @@
 
 .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.list li { padding:5px 0px;}
-.footer-bs .footer-nav ul.list a { color:rgba(255, 255, 255, 0.8); }
+.footer-bs .footer-nav ul.list a { color:rgba(255, 255, 255, 0.8);  }
 .footer-bs .footer-nav ul.list a:hover { color:rgba(159, 26, 26, 0.6); text-decoration:none; }
 
 .footer-bs .footer-social ul { list-style:none; padding:0px; }

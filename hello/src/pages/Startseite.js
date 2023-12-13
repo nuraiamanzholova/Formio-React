@@ -1,4 +1,5 @@
 import Subscribe from "../components/Subscribe";
+
 const Startseite = () => {
     return ( 
          <div className='inhalt'>

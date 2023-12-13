@@ -1,25 +1,33 @@
-// Add your custom styles below
-$theme-colors-rgb: (
-  'primary': #007bff,
-  'info': #530f1a,
-);
-
+// ich ändere hier die Default Farbe mit Variablen ,
+//z.B Primary ist immer grün, ich kann meine eigene Farbe rein machen
+$theme-colors: (
+  "primary": darkblue,
+  "info": darkblue,
+    );
+// survey ist im Formular Seite , wo man von 1 bis 5 bewerten soll
 .survey{
-    background-color:blanchedalmond;
-    color:darkblue; 
+    background-color:darkgray;
+    color: black;
+    font-size:medium; 
 }
-.formio-form{
-    background-color:lightblue;
-}
+
 .homepage{
      border-radius : 500px;
    width: 10rem;
     
     } 
-    .content {
-        text-align: start;
-        vertical-align: center;
-        background-color: pink;
-        width: 30rem;
+    /* Es gab so komische panel oben ,was mein nave fast zu macht, deswegen habe  ich  es ausgeblendet*/
+    .gENpvG {
+      display: none;
     }
-   
+    .card {
+      margin-top: 35px;
+    }
+    
+    .formio-component-htmlelement {
+      padding-left: 50px!important;
+      padding-left:50px!important;
+    }
+    .emailTNummer{
+      padding-top: 15px;
+    }

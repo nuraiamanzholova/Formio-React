@@ -1,8 +1,8 @@
 import ModalF from '../src/components/ModalF';
 import Footer from '../src/components/Footer';
-import '../src/Styles/css.css';
 import Menu from './components/menu';
-
+import '../src/Styles/nav.css'
+import '../src/Styles/general.css'
 
 function App() {
   return (

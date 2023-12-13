@@ -3,6 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import { atomOneLight, CopyBlock } from "react-code-blocks";
 import 'formiojs/dist/formio.builder.min.css';
 import './styles.scss';
+import './Styles/formio.css';
 const FormioForm = () => {
   return (
     <>
