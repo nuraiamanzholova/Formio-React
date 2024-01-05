@@ -11,6 +11,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+
 function Menu() {
     return (
         <BrowserRouter>
@@ -26,6 +27,7 @@ function Menu() {
                             navbarScroll
                         >
                              <ModalF />
+                        
                              
                              <h1 className='header'> Autowash </h1>
                             <Nav.Link as={Link} to={"/Startseite"}> Startseite </Nav.Link>
@@ -38,7 +40,7 @@ function Menu() {
                                 <NavDropdown.Item href="Formular"> Formular ausfüllen</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#" disabled>
-                            
+                  
                             </Nav.Link>
                         </Nav>
                         <Form className="d-flex">
@@ -50,7 +52,7 @@ function Menu() {
                             />
                             <Button variant="outline-success">Suchen</Button>
                         </Form>
-
+                        
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

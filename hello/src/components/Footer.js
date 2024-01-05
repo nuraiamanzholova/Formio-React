@@ -1,5 +1,6 @@
 import '../Styles/footer.css'
 import logo from './logo.jpg';
+import Stadte from '../pages/Stadte';
 
 const Footer = () => {
   return (
@@ -23,7 +24,7 @@ const Footer = () => {
             <div className="col-md-6">
               <ul className="pages">
                 <li>
-                  <a href="#">Autowash</a>
+                  <a href="../pages/Stadte">Autowash</a>
                 </li>
                 <li>
                   <a href="#">Express Innenreinigung</a>
