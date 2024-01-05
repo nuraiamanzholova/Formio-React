@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import { atomOneLight, CopyBlock } from "react-code-blocks";
 import 'formiojs/dist/formio.builder.min.css';
 import './styles.scss';
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const FormioForm = () => {
   const [options, setOptions] = useState({
@@ -21,12 +21,20 @@ const FormioForm = () => {
       },
       sp: {
         'Vorname': "Spanish Translation",
-        'Submit': "Submit Translation",
+        'Submit': "Spanish Translation",
       },
     },
     language: "de",
   });
-
+  const node = useRef()
+  useEffect (()=>{
+    if (node) { 
+    // eslint-disable-next-line
+    Formio.createForm(node.current,"https://forms.lhd.dev.publicplan.cloud/azubitest-adxfkcqfehdcrev/test2", options )
+    
+  }
+  }
+  )
   const setLanguage = (lang) => {
        setOptions({
       ...options,
@@ -34,6 +42,8 @@ const FormioForm = () => {
     });
     
   };
+
+  // <Form src="https://forms.lhd.dev.publicplan.cloud/azubitest-adxfkcqfehdcrev/test2" options={options} />
 
   return (
     <>
@@ -46,7 +56,8 @@ const FormioForm = () => {
             showLineNumbers={true}
           />
           <div className="py-3">
-            <Form src="https://forms.lhd.dev.publicplan.cloud/azubitest-adxfkcqfehdcrev/test2" options={options} />
+          <div className={"form-mount-point"} ref={node} />
+         
             <div className="btn-group">
               <button type="button" className="btn btn-primary" onClick={() => setLanguage('sp')}>
                 Español
